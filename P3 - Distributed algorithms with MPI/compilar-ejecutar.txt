@@ -1,0 +1,9 @@
+Compilar
+	mpicxx std=c++11 -c ejemplo.cpp
+	mpicxx -std=c++11 -o ejemplo ejemplo.o
+
+
+	mpicxx -std=c++11 -o ejemplo ejemplo.cpp
+
+Ejecutar: 
+	mpirun -np 5 ./ejemplo
